@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 
 buttons.forEach(function (button){
     console.log(button);
-    button.addEventListener('Onclick', function (e) {
+    button.addEventListener('click', function (e) {
         console.log(e);
         console.log(e.target);
         if(e.target.id === 'grey'){
@@ -17,6 +17,9 @@ buttons.forEach(function (button){
             body.style.backgroundColor = e.target.id;
         }
         if(e.target.id === 'yellow'){
+            body.style.backgroundColor = e.target.id;
+        }
+        if(e.target.id === 'magenta'){
             body.style.backgroundColor = e.target.id;
         }
     });
