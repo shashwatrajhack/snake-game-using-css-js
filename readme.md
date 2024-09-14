@@ -1,1 +1,1 @@
-In this repo there is a full applicaation of Javascript basic concept using game project.
+In this repo there is a full application of Javascript basic concept using game project.
